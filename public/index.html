@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/public/main.css">
+
+  <title>Advice Generator</title>
+</head>
+
+<body>
+  <!-- Content Wrapper -->
+  <div class="flex flex-col items-center justify-around bg-darkBlue h-screen">
+    <!-- Introduction -->
+    <div class="text-center">
+      <h1 class="text-lightCyan font-manrope text-3xl">
+        Random Advice Generator
+      </h1>
+    </div>
+    <!-- Card Wrapper -->
+    <div
+      class="flex flex-col bg-darkGrayishBlue p-5 mx-8 w-1/2 max-w-6xl space-y-6 rounded-lg justify-center items-center font-manrope">
+      <!-- Advice Nr. -->
+      <h2 id="advice-nr" class="text-md text-neonGreen uppercase"></h2>
+      <!-- Advice Text -->
+      <p id="advice-text" class="text-lightCyan text-center"></p>
+      <!-- Quote Divider -->
+      <div>
+        <img src="/images/pattern-divider-mobile.svg" alt="">
+      </div>
+      <!-- Dice -->
+      <a href="" id="get-data">
+        <div class="p-4 bg-neonGreen rounded-full transition-shadow hover:shadow-[0_0_15px_2px_rgb(82,255,168)]">
+          <img src="/images/icon-dice.svg" alt="">
+        </div>
+      </a>
+    </div>
+
+    <!-- Credits -->
+    <div>
+      <p class="text-lightCyan font-manrope text-sm">Coded by Ben Rückert</p>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+
+</html>
